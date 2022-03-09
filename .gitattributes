@@ -1,0 +1,16 @@
+* text=auto
+<<<<<<< HEAD
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+=======
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+>>>>>>> 0677a04 (Rebuild of dashboard to include home page route, changed routes to use controllers, huge rebuild)
+CHANGELOG.md export-ignore

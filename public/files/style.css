@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap");
+body::before {
+    display: block;
+    content: "";
+    height: 70px;
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 12pt;
+}
+
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #000;
+}
+
+
+.stroke {
+  text-shadow: 
+  2px 2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px 0px 0 #000,
+  0px 2px 0 #000,
+  -2px 0px 0 #000,
+  0px -2px 0 #000,
+  2px 2px 2px rgba(255,255,255,0);
+}
+
+.bg-dark {
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to bottom,
+        #414345,
+        #232526
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        #414345,
+        #232526
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* HERO IMAGE*/
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*sizing */
+    height: 60vh;
+    padding-top: 30px;
+    background-image: url(./images/about-us-hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.webdev-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*sizing */
+    height: 60vh;
+    padding-top: 30px;
+    background-image: url(./images/about-us-hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*sizing */
+    height: 60vh;
+    padding-top: 30px;
+    background-image: url(../files/hero-contact.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.purple {
+    background: #672577;
+}
+.orange {
+    background: #ff8400;
+}
+.green {
+    background: #00ff3c;
+}
+.dark-green {
+    background: #028521;
+}
+.text-orange {
+    color: #ff8400;
+}
+.satisfy {
+    font-family: Satisfy;
+}
+.ptsans {
+    font-family: "PT Sans";
+}
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+.Nunito {
+    font-family: "Nunito", sans-serif;
+}
+.btn-dark-green {
+    background: #028521;
+}
+.btn-dark-green:hover {
+    background: #00ae29;
+}
+.btn-light-orange {
+    background: #ff8400;
+}
+.btn-light-orange:hover {
+    background: #ff6c00;
+}
+.btn-dark-orange {
+    background: #ff6c00;
+}
+.btn-dark-orange:hover {
+    background: #ff8400;
+}
+.text-shadow-lg {
+    text-shadow: 1px 1px 1px #000, 1px 2px 1px #000, 1px 3px 1px #000,
+        1px 4px 1px #000, 1px 5px 1px #000, 1px 6px 1px #000, 1px 7px 1px #000,
+        1px 8px 1px #000, 1px 9px 1px #000, 1px 10px 1px #000,
+        1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+.text-shadow-sm {
+    text-shadow: 1px 1px 1px #000, 1px 2px 1px #000, 1px 3px 1px #000,
+        1px 4px 1px #000, 1px 5px 1px #000, 1px 10px 6px rgba(16, 16, 16, 0.4),
+        2px 14px 10px rgba(16, 16, 16, 0.2), 3px 16px 35px rgba(16, 16, 16, 0.2),
+        4px 20px 60px rgba(16, 16, 16, 0.4);
+}
+
+.fadeintop {
+    opacity: 0;
+    margin-top: -300px;
+    max-width: 100%;
+}
+.client-fade {
+    opacity: 0;
+    margin-top: -300px;
+    max-width: 100%;
+}
+.fadeinleft {
+    opacity: 0;
+    margin-left: -300px;
+    max-width: 100%;
+}
+.fadeinright {
+    opacity: 0;
+    margin-right: -300px;
+    max-width: 100%;
+}
+/* #services {
+    margin-left: -500px;
+    opacity: 0;
+} */
+#clients {
+    min-height: 60vh;
+}
+
+.border-left-orange {
+    border-left: 3px solid #ff8400;
+    border-radius: 15px;
+}
+
+.lead {
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+p {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+}
+
+.card-footer {
+    background-color: inherit;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 15px;
+}
+
+#navmenu .active {
+    color: #ff8400;
+}

@@ -1,0 +1,5 @@
+@include('dashboard.header')
+@include('dashboard.sidebar')
+@include('dashboard.top-header')
+@include('dashboard.content')
+@include('dashboard.footer')
